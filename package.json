@@ -1,0 +1,15 @@
+{
+    "name": "bases-node",
+    "version": "1.0.0",
+    "description": "aplicación de consola que admite base y limite y muestra o genera un fichero con el resultado de multiplicar",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Israel Bejarano Álvarez",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.3.3",
+        "yargs": "^13.2.2"
+    }
+}
