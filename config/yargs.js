@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const opts = {
     base: {
         demand: true,

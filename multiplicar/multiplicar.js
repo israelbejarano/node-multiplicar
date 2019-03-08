@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // requires
 const fs = require('fs');
 var colors = require('colors');
@@ -23,12 +24,12 @@ let crearArchivo = (base, limite = 10) => {
             }
         });
     });
-}
+};
 
 let listarTabla = (base, limite = 10) => {
     for (let i = 1; i <= limite; i++) {
         console.log(`${base} * ${i} = ${base * i}`.green);
     }
-}
+};
 
 module.exports = { crearArchivo, listarTabla };

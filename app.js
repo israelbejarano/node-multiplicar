@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const argv = require('./config/yargs').argv;
 const colors = require('colors');
 
